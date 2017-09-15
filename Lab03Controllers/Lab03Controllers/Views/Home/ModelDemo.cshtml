@@ -1,0 +1,13 @@
+@model Lab03Controllers.Models.Person
+
+@{
+
+    ViewData["Title"] = "Introduction to Models";
+
+}
+<div class="jumbotron">
+    <h1>@ViewData["Title"]</h1>
+    <div>Name: @Model.Name</div>
+    <div>Age: @Model.Age</div>
+</div>
+

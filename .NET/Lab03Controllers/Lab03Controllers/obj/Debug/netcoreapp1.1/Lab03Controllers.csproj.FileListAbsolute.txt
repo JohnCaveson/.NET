@@ -1,0 +1,10 @@
+E:\Adv Web Labwork\Lab03Controllers\Lab03Controllers\bin\Debug\netcoreapp1.1\Lab03Controllers.deps.json
+E:\Adv Web Labwork\Lab03Controllers\Lab03Controllers\bin\Debug\netcoreapp1.1\Lab03Controllers.runtimeconfig.json
+E:\Adv Web Labwork\Lab03Controllers\Lab03Controllers\bin\Debug\netcoreapp1.1\Lab03Controllers.runtimeconfig.dev.json
+E:\Adv Web Labwork\Lab03Controllers\Lab03Controllers\bin\Debug\netcoreapp1.1\Lab03Controllers.dll
+E:\Adv Web Labwork\Lab03Controllers\Lab03Controllers\bin\Debug\netcoreapp1.1\Lab03Controllers.pdb
+E:\Adv Web Labwork\Lab03Controllers\Lab03Controllers\obj\Debug\netcoreapp1.1\Lab03Controllers.csprojResolveAssemblyReference.cache
+E:\Adv Web Labwork\Lab03Controllers\Lab03Controllers\obj\Debug\netcoreapp1.1\Lab03Controllers.csproj.CoreCompileInputs.cache
+E:\Adv Web Labwork\Lab03Controllers\Lab03Controllers\obj\Debug\netcoreapp1.1\Lab03Controllers.AssemblyInfo.cs
+E:\Adv Web Labwork\Lab03Controllers\Lab03Controllers\obj\Debug\netcoreapp1.1\Lab03Controllers.dll
+E:\Adv Web Labwork\Lab03Controllers\Lab03Controllers\obj\Debug\netcoreapp1.1\Lab03Controllers.pdb

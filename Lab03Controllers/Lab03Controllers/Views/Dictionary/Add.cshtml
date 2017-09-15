@@ -1,0 +1,14 @@
+
+@{
+    ViewData["Title"] = "Adding a word is neat!";
+}
+
+<h2>Add a Word</h2>
+<form name="formAddWord" action="/dictionary/addword" method="post">
+    <label for="word">Word: </label>
+    <input type="text" id="word" name="word"><br />
+    <label for="meaning">Meaning: </label>
+    <input type="text" id="meaning" name="meaning"><br />
+    <input type="submit" value="Submit">
+</form>
+
