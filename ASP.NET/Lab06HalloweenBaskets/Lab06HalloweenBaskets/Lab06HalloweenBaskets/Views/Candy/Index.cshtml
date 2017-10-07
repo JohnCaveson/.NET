@@ -1,0 +1,13 @@
+@model Lab06HalloweenBaskets.Models.Entities.Basket
+
+@{ 
+    ViewData["Title"] = "Candies in basket " + Model.Name;
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@Html.Partial("_Candies", Model.Candies)
+
+<p>
+    @Html.ActionLink("Add Candy to Basket", "Create", new { basketId = Model.Id})
+</p>

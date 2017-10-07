@@ -1,0 +1,10 @@
+C:\Users\gigta\Documents\3110 Adv Web\BMITracker\BMITracker\bin\Debug\netcoreapp1.1\BMITracker.deps.json
+C:\Users\gigta\Documents\3110 Adv Web\BMITracker\BMITracker\bin\Debug\netcoreapp1.1\BMITracker.runtimeconfig.json
+C:\Users\gigta\Documents\3110 Adv Web\BMITracker\BMITracker\bin\Debug\netcoreapp1.1\BMITracker.runtimeconfig.dev.json
+C:\Users\gigta\Documents\3110 Adv Web\BMITracker\BMITracker\bin\Debug\netcoreapp1.1\BMITracker.dll
+C:\Users\gigta\Documents\3110 Adv Web\BMITracker\BMITracker\bin\Debug\netcoreapp1.1\BMITracker.pdb
+C:\Users\gigta\Documents\3110 Adv Web\BMITracker\BMITracker\obj\Debug\netcoreapp1.1\BMITracker.csprojResolveAssemblyReference.cache
+C:\Users\gigta\Documents\3110 Adv Web\BMITracker\BMITracker\obj\Debug\netcoreapp1.1\BMITracker.csproj.CoreCompileInputs.cache
+C:\Users\gigta\Documents\3110 Adv Web\BMITracker\BMITracker\obj\Debug\netcoreapp1.1\BMITracker.AssemblyInfo.cs
+C:\Users\gigta\Documents\3110 Adv Web\BMITracker\BMITracker\obj\Debug\netcoreapp1.1\BMITracker.dll
+C:\Users\gigta\Documents\3110 Adv Web\BMITracker\BMITracker\obj\Debug\netcoreapp1.1\BMITracker.pdb

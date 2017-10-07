@@ -1,0 +1,69 @@
+@model Lab05Recommendation.Models.Entities.Person
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details for @Model.FirstName @Model.MiddleName @Model.LastName</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MiddleName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MiddleName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+    </dl>
+</div>
+<div>
+    <h1>@Model.Recommendation.Count Recommendation(s)</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Rating
+                </th>
+                <th>
+                    Narrative
+                </th>
+                <th>
+                    Recommender's Name
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var item in Model.Recommendation)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Rating)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Narrative)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RecommenderName)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new {id = Model.Id}) |
+    <a asp-action="Index" asp-controller="Home">Back to List</a>
+</div>

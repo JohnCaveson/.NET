@@ -1,0 +1,68 @@
+@model BMITracker.Models.Entities.HealthProfile
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details for @Model.FirstName @Model.LastName</h2>
+
+<div>
+    @{
+        var gender = "";
+        @switch (Model.Gender)
+            {
+                case 0:
+                    gender = "Female";
+                    break;
+                case 1:
+                    gender = "Male";
+                    break;
+                default:
+                    gender = "Other";
+                    break;
+            }
+    }
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+        <dt>
+            Year of Birth
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.YearOfBirth)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Gender)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => gender)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Height)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Height)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Weight)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Weight)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,10 @@
+E:\Adv Web Labwork\Lab03Models\Lab03Models\bin\Debug\netcoreapp1.1\Lab03Models.deps.json
+E:\Adv Web Labwork\Lab03Models\Lab03Models\bin\Debug\netcoreapp1.1\Lab03Models.runtimeconfig.json
+E:\Adv Web Labwork\Lab03Models\Lab03Models\bin\Debug\netcoreapp1.1\Lab03Models.runtimeconfig.dev.json
+E:\Adv Web Labwork\Lab03Models\Lab03Models\bin\Debug\netcoreapp1.1\Lab03Models.dll
+E:\Adv Web Labwork\Lab03Models\Lab03Models\obj\Debug\netcoreapp1.1\Lab03Models.csprojResolveAssemblyReference.cache
+E:\Adv Web Labwork\Lab03Models\Lab03Models\obj\Debug\netcoreapp1.1\Lab03Models.csproj.CoreCompileInputs.cache
+E:\Adv Web Labwork\Lab03Models\Lab03Models\obj\Debug\netcoreapp1.1\Lab03Models.AssemblyInfo.cs
+E:\Adv Web Labwork\Lab03Models\Lab03Models\bin\Debug\netcoreapp1.1\Lab03Models.pdb
+E:\Adv Web Labwork\Lab03Models\Lab03Models\obj\Debug\netcoreapp1.1\Lab03Models.dll
+E:\Adv Web Labwork\Lab03Models\Lab03Models\obj\Debug\netcoreapp1.1\Lab03Models.pdb

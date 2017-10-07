@@ -1,0 +1,9 @@
+E:\Adv Web Labwork\Lab05Recommendation\Lab05Recommendation\bin\Debug\netcoreapp1.1\Lab05Recommendation.deps.json
+E:\Adv Web Labwork\Lab05Recommendation\Lab05Recommendation\bin\Debug\netcoreapp1.1\Lab05Recommendation.runtimeconfig.json
+E:\Adv Web Labwork\Lab05Recommendation\Lab05Recommendation\bin\Debug\netcoreapp1.1\Lab05Recommendation.runtimeconfig.dev.json
+E:\Adv Web Labwork\Lab05Recommendation\Lab05Recommendation\bin\Debug\netcoreapp1.1\Lab05Recommendation.dll
+E:\Adv Web Labwork\Lab05Recommendation\Lab05Recommendation\bin\Debug\netcoreapp1.1\Lab05Recommendation.pdb
+E:\Adv Web Labwork\Lab05Recommendation\Lab05Recommendation\obj\Debug\netcoreapp1.1\Lab05Recommendation.csprojResolveAssemblyReference.cache
+E:\Adv Web Labwork\Lab05Recommendation\Lab05Recommendation\obj\Debug\netcoreapp1.1\Lab05Recommendation.AssemblyInfo.cs
+E:\Adv Web Labwork\Lab05Recommendation\Lab05Recommendation\obj\Debug\netcoreapp1.1\Lab05Recommendation.dll
+E:\Adv Web Labwork\Lab05Recommendation\Lab05Recommendation\obj\Debug\netcoreapp1.1\Lab05Recommendation.pdb

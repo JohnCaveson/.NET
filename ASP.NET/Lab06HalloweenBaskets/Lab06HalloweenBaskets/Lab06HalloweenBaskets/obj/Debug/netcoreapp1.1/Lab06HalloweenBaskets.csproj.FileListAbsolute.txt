@@ -1,0 +1,9 @@
+E:\Adv Web Labwork\Lab06HalloweenBaskets\Lab06HalloweenBaskets\Lab06HalloweenBaskets\bin\Debug\netcoreapp1.1\Lab06HalloweenBaskets.deps.json
+E:\Adv Web Labwork\Lab06HalloweenBaskets\Lab06HalloweenBaskets\Lab06HalloweenBaskets\bin\Debug\netcoreapp1.1\Lab06HalloweenBaskets.runtimeconfig.json
+E:\Adv Web Labwork\Lab06HalloweenBaskets\Lab06HalloweenBaskets\Lab06HalloweenBaskets\bin\Debug\netcoreapp1.1\Lab06HalloweenBaskets.runtimeconfig.dev.json
+E:\Adv Web Labwork\Lab06HalloweenBaskets\Lab06HalloweenBaskets\Lab06HalloweenBaskets\bin\Debug\netcoreapp1.1\Lab06HalloweenBaskets.dll
+E:\Adv Web Labwork\Lab06HalloweenBaskets\Lab06HalloweenBaskets\Lab06HalloweenBaskets\obj\Debug\netcoreapp1.1\Lab06HalloweenBaskets.AssemblyInfo.cs
+E:\Adv Web Labwork\Lab06HalloweenBaskets\Lab06HalloweenBaskets\Lab06HalloweenBaskets\obj\Debug\netcoreapp1.1\Lab06HalloweenBaskets.csprojResolveAssemblyReference.cache
+E:\Adv Web Labwork\Lab06HalloweenBaskets\Lab06HalloweenBaskets\Lab06HalloweenBaskets\bin\Debug\netcoreapp1.1\Lab06HalloweenBaskets.pdb
+E:\Adv Web Labwork\Lab06HalloweenBaskets\Lab06HalloweenBaskets\Lab06HalloweenBaskets\obj\Debug\netcoreapp1.1\Lab06HalloweenBaskets.dll
+E:\Adv Web Labwork\Lab06HalloweenBaskets\Lab06HalloweenBaskets\Lab06HalloweenBaskets\obj\Debug\netcoreapp1.1\Lab06HalloweenBaskets.pdb
