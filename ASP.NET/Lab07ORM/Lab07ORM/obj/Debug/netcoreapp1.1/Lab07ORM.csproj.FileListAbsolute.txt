@@ -1,0 +1,10 @@
+E:\Adv Web Labwork\Lab07ORM\Lab07ORM\Lab07ORM\bin\Debug\netcoreapp1.1\Lab07ORM.deps.json
+E:\Adv Web Labwork\Lab07ORM\Lab07ORM\Lab07ORM\bin\Debug\netcoreapp1.1\Lab07ORM.runtimeconfig.json
+E:\Adv Web Labwork\Lab07ORM\Lab07ORM\Lab07ORM\bin\Debug\netcoreapp1.1\Lab07ORM.runtimeconfig.dev.json
+E:\Adv Web Labwork\Lab07ORM\Lab07ORM\Lab07ORM\bin\Debug\netcoreapp1.1\Lab07ORM.dll
+E:\Adv Web Labwork\Lab07ORM\Lab07ORM\Lab07ORM\obj\Debug\netcoreapp1.1\Lab07ORM.csprojResolveAssemblyReference.cache
+E:\Adv Web Labwork\Lab07ORM\Lab07ORM\Lab07ORM\obj\Debug\netcoreapp1.1\Lab07ORM.csproj.CoreCompileInputs.cache
+E:\Adv Web Labwork\Lab07ORM\Lab07ORM\Lab07ORM\obj\Debug\netcoreapp1.1\Lab07ORM.AssemblyInfo.cs
+E:\Adv Web Labwork\Lab07ORM\Lab07ORM\Lab07ORM\bin\Debug\netcoreapp1.1\Lab07ORM.pdb
+E:\Adv Web Labwork\Lab07ORM\Lab07ORM\Lab07ORM\obj\Debug\netcoreapp1.1\Lab07ORM.dll
+E:\Adv Web Labwork\Lab07ORM\Lab07ORM\Lab07ORM\obj\Debug\netcoreapp1.1\Lab07ORM.pdb

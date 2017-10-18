@@ -1,0 +1,55 @@
+@model IEnumerable<Lab07ORM.Models.Entities.Course>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Course List</h2>
+
+<p>
+    <a asp-action="Create" asp-controller="Course">Create New</a>
+</p>
+@if (Model.Count() != 1)
+{
+    <h3>Number of Courses: @Model.Count()</h3>
+}
+else
+{
+    <h3>Number of Courses: @Model.Count()</h3>
+}
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Code)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Number)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CreditHours)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Code)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Number)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreditHours)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

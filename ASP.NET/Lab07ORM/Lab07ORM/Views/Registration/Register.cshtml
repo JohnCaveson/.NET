@@ -1,0 +1,29 @@
+@model IEnumerable<Lab07ORM.Models.ViewModels.SelectCourseVM>
+
+    @{
+        ViewData["Title"] = "Course Selection";
+    }
+
+    <h2>@ViewData["Title"]</h2>
+
+    <form asp-action="SelectStudent">
+        <div class="form-horizontal">
+            <div class="form-group">
+                <label for="CourseId" class="control-label col-md-2">Select a Course:</label>
+                <div class="col-md-10">
+                    <select name="courseId" id="courseId" class="form-control">
+                        @foreach (var course in Model)
+                        {
+                            <option value="@course.CourseId">@course.CourseName</option>
+                        }
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Select Course" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    </form>

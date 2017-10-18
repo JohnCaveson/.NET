@@ -1,0 +1,32 @@
+@model Lab07ORM.Models.ViewModels.SelectStudentVM
+
+@{
+    ViewData["Title"] = "Student Selection";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>Selected Course: @Model.CourseId</h3>
+
+<form asp-action="RegisterStudentCourse">
+    <div class="form-horizontal">
+
+        <input type="hidden" name="courseId" value="@Model.CourseId" />
+
+        <div class="form-group">
+            <label for="studentId" class="control-label col-md-2">Select a Student:</label>
+            <div class="col-md-10">
+                <select name="studentId" id="studentId" class="form-control">
+                    @foreach (var student in Model.StudentNames)
+                    {
+                        <option value="@student.ENumber">@student.Name</option>
+                    }
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Register Student" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+</form>
