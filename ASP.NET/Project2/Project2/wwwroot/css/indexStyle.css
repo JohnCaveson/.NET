@@ -1,0 +1,53 @@
+﻿
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+canvas {
+    vertical-align: top;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: 100;
+    font-size: 60px;
+}
+
+
+
+a {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+
+    a:link, a:visited {
+        width: 100%;
+        background-color: white;
+        color: black;
+        padding: 14px 0px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    a:hover, a:active {
+        width: 100%;
+        background-color: black;
+        color: white;
+    }
+
+
+
+#menu {
+    max-width: 50%;
+    height: auto;
+    margin: auto;
+    padding-left: 0px;
+}
+

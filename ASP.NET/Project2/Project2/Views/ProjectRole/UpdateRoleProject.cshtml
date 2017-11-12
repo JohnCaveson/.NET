@@ -1,0 +1,31 @@
+@model Project2.Models.ViewModels.SelectAllVM
+@{
+    ViewData["Title"] = "Update Role for " + Model.Name + " on " + Model.ProjectName;
+}
+<h2>@ViewData["Title"]</h2>
+<form asp-action="UpdateProjectRoleProject">
+    <div class="form-horizontal">
+
+        <input type="hidden" id="personId" name="personId" value="@Model.Id" />
+        <input type="hidden" id="projectId" name="projectId" value="@Model.ProjectId" />
+        <input type="hidden" id="roleId" name="roleId" value="@Model.RoleId" />
+
+        <div class="form-group">
+            <label for="newRoleId" class="control-label col-md-2">Select a Role:</label>
+            <div class="col-md-10">
+                <select name="newRoleId" id="newRoleId" class="form-control">
+                    @foreach (var role in Model.RoleNames)
+                    {
+                        <option value="@role.id">@role.RoleName</option>
+                    }
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Change Role" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+</form>

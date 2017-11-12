@@ -1,0 +1,38 @@
+@model Project2.Models.ViewModels.PersonProjectRoleNameVM
+
+@{ 
+    if(Model.RoleName == "Development Team")
+    {
+        ViewData["Title"] = "Do you really want to remove " + Model.Name + " from " + Model.ProjectName + " as part of the " + Model.RoleName + "?";
+    }
+    else
+    {
+        ViewData["Title"] = "Do you really want to remove " + Model.Name + "from " + Model.ProjectName + " as a " + Model.RoleName + "?";
+    }
+}
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="RemoveFromProject">
+    <div class="form-horizontal">
+        <div class="form-group">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            <input style="background-color:forestgreen" type="submit" value="Yes" class="btn btn-default" />
+                        </th>
+                        <th>
+                            <input style="background-color:red" type="submit" value="NO!" asp-action="PersonProjectIndex" class="btn btn-default" />
+                        </th>
+                    </tr>
+                </thead>
+            </table>
+            <div class="col-md-offset-2 col-md-10">
+                <input type="hidden" name="personId" id="personId" value="@Model.PersonId" />
+                <input type="hidden" name="roleId" id="roleId" value="@Model.RoleId" />
+                <input type="hidden" name="projectId" id="projectId" value="@Model.ProjectId" />
+            </div>
+        </div>
+    </div>
+</form>
+

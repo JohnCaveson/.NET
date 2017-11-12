@@ -1,0 +1,33 @@
+@model Project2.Models.ViewModels.SelectRoleVM
+
+@{
+    ViewData["Title"] = "Role Selection";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>Selected Project: @Model.ProjectId</h3>
+
+<form asp-action="AssignPersonProject">
+    <div class="form-horizontal">
+
+        <input type="hidden" name="projectId" value="@Model.ProjectId" />
+
+        <div class="form-group">
+            <label for="roleId" class="control-label col-md-2">Select a Role:</label>
+            <div class="col-md-10">
+                <select name="roleId" id="roleId" class="form-control">
+                    @foreach (var role in Model.RoleNames)
+                    {
+                        <option value="@role.id">@role.RoleName</option>
+                    }
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Assign Role" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+</form>
+

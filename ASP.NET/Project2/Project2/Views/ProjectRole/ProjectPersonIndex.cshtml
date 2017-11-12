@@ -1,0 +1,54 @@
+@model IEnumerable<Project2.Models.ViewModels.PersonProjectVM>
+
+    @{
+    ViewData["Title"] = "People sorted by Project";
+    }
+
+    <h2>@ViewData["Title"]</h2>
+
+    <table class="table">
+
+        @foreach (var item in Model) {
+            <thead>
+                <tr>
+                    <th>
+                        <h2>
+                            @Html.DisplayFor(modelItem => item.ProjectName)
+                        </h2>
+                    </th>
+                    <th>
+                        @Html.ActionLink("Add to Project","SelectPersonAndRole", new { id = item.ProjectId})
+                    </th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>
+                        Project
+                    </th>
+                    <th>
+                        Role
+                    </th>
+                </tr>
+                @foreach(var item2 in item.PeopleAndRoles)
+            {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item2.Person.FirstName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item2.Role.Name)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Update Role","UpdateRoleProject", new { id = item2.PersonId, projectId = item2.Project.Id, roleId = item2.Role.Id })
+                        </td>
+                        <td>
+                            @Html.ActionLink("Remove from Project", "SelectProject", new { id = item2.PersonId, projectId = item2.Project.Id, roleId = item2.Role.Id })
+                        </td>
+                    </tr>
+            }
+            </tbody>
+    }
+    </table>

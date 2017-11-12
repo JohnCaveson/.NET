@@ -1,0 +1,53 @@
+C:\Users\gigta\Documents\2210 Data Structures\.NET\ASP.NET\Project2\Project2\bin\Debug\netcoreapp1.1\Project2.deps.json
+C:\Users\gigta\Documents\2210 Data Structures\.NET\ASP.NET\Project2\Project2\bin\Debug\netcoreapp1.1\Project2.runtimeconfig.json
+C:\Users\gigta\Documents\2210 Data Structures\.NET\ASP.NET\Project2\Project2\bin\Debug\netcoreapp1.1\Project2.runtimeconfig.dev.json
+C:\Users\gigta\Documents\2210 Data Structures\.NET\ASP.NET\Project2\Project2\bin\Debug\netcoreapp1.1\Project2.dll
+C:\Users\gigta\Documents\2210 Data Structures\.NET\ASP.NET\Project2\Project2\bin\Debug\netcoreapp1.1\Project2.pdb
+C:\Users\gigta\Documents\2210 Data Structures\.NET\ASP.NET\Project2\Project2\obj\Debug\netcoreapp1.1\Project2.csprojResolveAssemblyReference.cache
+C:\Users\gigta\Documents\2210 Data Structures\.NET\ASP.NET\Project2\Project2\obj\Debug\netcoreapp1.1\Project2.csproj.CoreCompileInputs.cache
+C:\Users\gigta\Documents\2210 Data Structures\.NET\ASP.NET\Project2\Project2\obj\Debug\netcoreapp1.1\Project2.AssemblyInfo.cs
+C:\Users\gigta\Documents\2210 Data Structures\.NET\ASP.NET\Project2\Project2\obj\Debug\netcoreapp1.1\Project2.dll
+C:\Users\gigta\Documents\2210 Data Structures\.NET\ASP.NET\Project2\Project2\obj\Debug\netcoreapp1.1\Project2.pdb
+D:\Adv Web Labwork\Project2\Project2\obj\Debug\netcoreapp1.1\Project2.dll
+D:\Adv Web Labwork\Project2\Project2\obj\Debug\netcoreapp1.1\Project2.pdb
+D:\Adv Web Labwork\Project2\Project2\bin\Debug\netcoreapp1.1\Project2.deps.json
+D:\Adv Web Labwork\Project2\Project2\bin\Debug\netcoreapp1.1\Project2.runtimeconfig.json
+D:\Adv Web Labwork\Project2\Project2\bin\Debug\netcoreapp1.1\Project2.runtimeconfig.dev.json
+D:\Adv Web Labwork\Project2\Project2\bin\Debug\netcoreapp1.1\Project2.dll
+D:\Adv Web Labwork\Project2\Project2\bin\Debug\netcoreapp1.1\Project2.pdb
+D:\Adv Web Labwork\Project2\Project2\obj\Debug\netcoreapp1.1\Project2.csprojResolveAssemblyReference.cache
+D:\Adv Web Labwork\Project2\Project2\obj\Debug\netcoreapp1.1\Project2.csproj.CoreCompileInputs.cache
+D:\Adv Web Labwork\Project2\Project2\obj\Debug\netcoreapp1.1\Project2.AssemblyInfoInputs.cache
+D:\Adv Web Labwork\Project2\Project2\obj\Debug\netcoreapp1.1\Project2.AssemblyInfo.cs
+C:\Users\Daniel\Desktop\Project2_DanEdit\Project2\bin\Debug\netcoreapp1.1\Project2.deps.json
+C:\Users\Daniel\Desktop\Project2_DanEdit\Project2\bin\Debug\netcoreapp1.1\Project2.runtimeconfig.json
+C:\Users\Daniel\Desktop\Project2_DanEdit\Project2\bin\Debug\netcoreapp1.1\Project2.runtimeconfig.dev.json
+C:\Users\Daniel\Desktop\Project2_DanEdit\Project2\bin\Debug\netcoreapp1.1\Project2.dll
+C:\Users\Daniel\Desktop\Project2_DanEdit\Project2\bin\Debug\netcoreapp1.1\Project2.pdb
+C:\Users\Daniel\Desktop\Project2_DanEdit\Project2\obj\Debug\netcoreapp1.1\Project2.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Desktop\Project2_DanEdit\Project2\obj\Debug\netcoreapp1.1\Project2.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Desktop\Project2_DanEdit\Project2\obj\Debug\netcoreapp1.1\Project2.AssemblyInfoInputs.cache
+C:\Users\Daniel\Desktop\Project2_DanEdit\Project2\obj\Debug\netcoreapp1.1\Project2.AssemblyInfo.cs
+C:\Users\Daniel\Desktop\Project2_DanEdit\Project2\obj\Debug\netcoreapp1.1\Project2.dll
+C:\Users\Daniel\Desktop\Project2_DanEdit\Project2\obj\Debug\netcoreapp1.1\Project2.pdb
+E:\Project2_DanEdit\Project2\bin\Debug\netcoreapp1.1\Project2.deps.json
+E:\Project2_DanEdit\Project2\bin\Debug\netcoreapp1.1\Project2.runtimeconfig.json
+E:\Project2_DanEdit\Project2\bin\Debug\netcoreapp1.1\Project2.runtimeconfig.dev.json
+E:\Project2_DanEdit\Project2\bin\Debug\netcoreapp1.1\Project2.dll
+E:\Project2_DanEdit\Project2\bin\Debug\netcoreapp1.1\Project2.pdb
+E:\Project2_DanEdit\Project2\obj\Debug\netcoreapp1.1\Project2.csprojResolveAssemblyReference.cache
+E:\Project2_DanEdit\Project2\obj\Debug\netcoreapp1.1\Project2.csproj.CoreCompileInputs.cache
+E:\Project2_DanEdit\Project2\obj\Debug\netcoreapp1.1\Project2.AssemblyInfo.cs
+E:\Project2_DanEdit\Project2\obj\Debug\netcoreapp1.1\Project2.dll
+E:\Project2_DanEdit\Project2\obj\Debug\netcoreapp1.1\Project2.pdb
+D:\Project2_DanEdit\Project2\bin\Debug\netcoreapp1.1\Project2.deps.json
+D:\Project2_DanEdit\Project2\bin\Debug\netcoreapp1.1\Project2.runtimeconfig.json
+D:\Project2_DanEdit\Project2\bin\Debug\netcoreapp1.1\Project2.runtimeconfig.dev.json
+D:\Project2_DanEdit\Project2\bin\Debug\netcoreapp1.1\Project2.dll
+D:\Project2_DanEdit\Project2\bin\Debug\netcoreapp1.1\Project2.pdb
+D:\Project2_DanEdit\Project2\obj\Debug\netcoreapp1.1\Project2.csproj.CoreCompileInputs.cache
+D:\Project2_DanEdit\Project2\obj\Debug\netcoreapp1.1\Project2.AssemblyInfoInputs.cache
+D:\Project2_DanEdit\Project2\obj\Debug\netcoreapp1.1\Project2.AssemblyInfo.cs
+D:\Project2_DanEdit\Project2\obj\Debug\netcoreapp1.1\Project2.dll
+D:\Project2_DanEdit\Project2\obj\Debug\netcoreapp1.1\Project2.pdb
+D:\Project2_DanEdit\Project2\obj\Debug\netcoreapp1.1\Project2.csprojResolveAssemblyReference.cache

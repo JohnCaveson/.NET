@@ -1,0 +1,40 @@
+@model Project2.Models.ViewModels.SelectAllVM
+
+@{
+    ViewData["Title"] = "RemoveFromProject";
+}
+
+<h2>RemoveFromProject</h2>
+
+<h3>Are you sure you want to delete</h3>
+<div>
+    <h4>SelectAllVM</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ProjectId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ProjectId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.RoleId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RoleId)
+        </dd>
+    </dl>
+    
+    <form asp-action="RemoveFromProject">
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            <a asp-action="Index">Back to List</a>
+        </div>
+    </form>
+</div>

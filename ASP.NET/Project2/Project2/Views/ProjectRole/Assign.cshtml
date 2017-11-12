@@ -1,0 +1,32 @@
+@model Project2.Models.ViewModels.SelectProjectVM
+
+    @{
+        ViewData["Title"] = "Project Selection";
+    }
+
+    <h2>@ViewData["Title"]</h2>
+
+    <form asp-action="SelectRole">
+        <div class="form-horizontal">
+
+            <input type="hidden" name="personId" value="@Model.PersonId" />
+
+            <div class="form-group">
+                <label for="projectId" class="control-label col-md-2">Select a Course:</label>
+                <div class="col-md-10">
+                    <select name="projectId" id="projectId" class="form-control">
+                        @foreach (var project in Model.ProjectNames)
+                        {
+                            <option value="@project.id">@project.ProjectName</option>
+                        }
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Select Project" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    </form>
