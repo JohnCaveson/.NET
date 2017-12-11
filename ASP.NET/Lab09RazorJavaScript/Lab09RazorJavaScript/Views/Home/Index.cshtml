@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Greer Goodman";
+}
+
+<h1>@ViewData["Title"]</h1>
+<p>Hello, World! I'm learning Razor views</p>
+
+@{ 
+    int firstNumber = 24;
+    float bigFloat = (float)23.1;
+    string noString = "no new string";
+    int newInt = 259;
+}
+
+<p>@firstNumber is cool but @bigFloat is cooler however @noString is worse than @newInt</p>
+
+
+@for (int i = 1; i <= 20; i++)
+{
+    firstNumber = 3 * i;
+    <p>3 x @i  = @firstNumber</p>
+}
+
+<p>@(67/13*234)</p>
+
+<p>ViewBag Random = @ViewBag.SomeRandomNumber ; ViewData Random = @ViewData["RandomNumber"]</p>

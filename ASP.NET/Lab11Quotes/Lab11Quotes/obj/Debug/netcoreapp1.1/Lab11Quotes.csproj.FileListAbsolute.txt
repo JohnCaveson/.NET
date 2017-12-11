@@ -1,0 +1,20 @@
+Z:\ASP\Lab11Quotes\Lab11Quotes\bin\Debug\netcoreapp1.1\Lab11Quotes.deps.json
+Z:\ASP\Lab11Quotes\Lab11Quotes\bin\Debug\netcoreapp1.1\Lab11Quotes.runtimeconfig.json
+Z:\ASP\Lab11Quotes\Lab11Quotes\bin\Debug\netcoreapp1.1\Lab11Quotes.runtimeconfig.dev.json
+Z:\ASP\Lab11Quotes\Lab11Quotes\bin\Debug\netcoreapp1.1\Lab11Quotes.dll
+Z:\ASP\Lab11Quotes\Lab11Quotes\obj\Debug\netcoreapp1.1\Lab11Quotes.csprojResolveAssemblyReference.cache
+Z:\ASP\Lab11Quotes\Lab11Quotes\obj\Debug\netcoreapp1.1\Lab11Quotes.csproj.CoreCompileInputs.cache
+Z:\ASP\Lab11Quotes\Lab11Quotes\obj\Debug\netcoreapp1.1\Lab11Quotes.AssemblyInfo.cs
+Z:\ASP\Lab11Quotes\Lab11Quotes\bin\Debug\netcoreapp1.1\Lab11Quotes.pdb
+Z:\ASP\Lab11Quotes\Lab11Quotes\obj\Debug\netcoreapp1.1\Lab11Quotes.dll
+Z:\ASP\Lab11Quotes\Lab11Quotes\obj\Debug\netcoreapp1.1\Lab11Quotes.pdb
+E:\Adv Web Labwork\Lab11Quotes\Lab11Quotes\bin\Debug\netcoreapp1.1\Lab11Quotes.deps.json
+E:\Adv Web Labwork\Lab11Quotes\Lab11Quotes\bin\Debug\netcoreapp1.1\Lab11Quotes.runtimeconfig.json
+E:\Adv Web Labwork\Lab11Quotes\Lab11Quotes\bin\Debug\netcoreapp1.1\Lab11Quotes.runtimeconfig.dev.json
+E:\Adv Web Labwork\Lab11Quotes\Lab11Quotes\bin\Debug\netcoreapp1.1\Lab11Quotes.dll
+E:\Adv Web Labwork\Lab11Quotes\Lab11Quotes\bin\Debug\netcoreapp1.1\Lab11Quotes.pdb
+E:\Adv Web Labwork\Lab11Quotes\Lab11Quotes\obj\Debug\netcoreapp1.1\Lab11Quotes.csprojResolveAssemblyReference.cache
+E:\Adv Web Labwork\Lab11Quotes\Lab11Quotes\obj\Debug\netcoreapp1.1\Lab11Quotes.csproj.CoreCompileInputs.cache
+E:\Adv Web Labwork\Lab11Quotes\Lab11Quotes\obj\Debug\netcoreapp1.1\Lab11Quotes.AssemblyInfo.cs
+E:\Adv Web Labwork\Lab11Quotes\Lab11Quotes\obj\Debug\netcoreapp1.1\Lab11Quotes.dll
+E:\Adv Web Labwork\Lab11Quotes\Lab11Quotes\obj\Debug\netcoreapp1.1\Lab11Quotes.pdb

@@ -1,0 +1,74 @@
+@{
+    ViewData["Title"] = "Exercising Adult";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+
+<form action="" method="get">
+    <div class="form-horizontal">
+
+        <div class="form-group">
+            <label for="weight" class="control-label col-md-2">Weight (pounds):</label>
+            <div class="col-md-10">
+                <input type="number" id="weight" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="minutes" class="control-label col-md-2">Minutes Exercising:</label>
+            <div class="col-md-10">
+                <input type="range" id="minutes" class="form-control" />
+                <span id="minutesDisplay"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="intensity" class="control-label col-md-2">Intensity:</label>
+            <div class="col-md-10">
+                <input type="range" id="intensity" class="form-control" />
+                <span id="intensityDisplay"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="calories" class="control-label col-md-2">Calories in one serving:</label>
+            <div class="col-md-10">
+                <input type="number" id="calories" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="basal" class="control-label col-md-2">Calories required(basal):</label>
+            <div class="col-md-3">
+                <input type="number" id="basal" class="form-control" readonly disabled />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="physical" class="control-label col-md-2">Calories required(physical):</label>
+            <div class="col-md-3">
+                <input type="number" id="physical" class="form-control" readonly disabled />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="servings" class="control-label col-md-2">Number of servings to maintain weight:</label>
+            <div class="col-md-3">
+                <input type="number" id="servings" class="form-control" readonly disabled />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <button id="calculate" class="btn btn-default">Calculate</button>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+@section Scripts{
+    <script src="~/js/exercisingAdult.js"></script>
+    <script src="~/js/homeExercisingAdult.js"></script>
+}

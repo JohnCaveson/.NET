@@ -1,0 +1,10 @@
+E:\Adv Web Labwork\Lab09RazorJavaScript\Lab09RazorJavaScript\bin\Debug\netcoreapp1.1\Lab09RazorJavaScript.deps.json
+E:\Adv Web Labwork\Lab09RazorJavaScript\Lab09RazorJavaScript\bin\Debug\netcoreapp1.1\Lab09RazorJavaScript.runtimeconfig.json
+E:\Adv Web Labwork\Lab09RazorJavaScript\Lab09RazorJavaScript\bin\Debug\netcoreapp1.1\Lab09RazorJavaScript.runtimeconfig.dev.json
+E:\Adv Web Labwork\Lab09RazorJavaScript\Lab09RazorJavaScript\bin\Debug\netcoreapp1.1\Lab09RazorJavaScript.dll
+E:\Adv Web Labwork\Lab09RazorJavaScript\Lab09RazorJavaScript\bin\Debug\netcoreapp1.1\Lab09RazorJavaScript.pdb
+E:\Adv Web Labwork\Lab09RazorJavaScript\Lab09RazorJavaScript\obj\Debug\netcoreapp1.1\Lab09RazorJavaScript.csprojResolveAssemblyReference.cache
+E:\Adv Web Labwork\Lab09RazorJavaScript\Lab09RazorJavaScript\obj\Debug\netcoreapp1.1\Lab09RazorJavaScript.csproj.CoreCompileInputs.cache
+E:\Adv Web Labwork\Lab09RazorJavaScript\Lab09RazorJavaScript\obj\Debug\netcoreapp1.1\Lab09RazorJavaScript.AssemblyInfo.cs
+E:\Adv Web Labwork\Lab09RazorJavaScript\Lab09RazorJavaScript\obj\Debug\netcoreapp1.1\Lab09RazorJavaScript.dll
+E:\Adv Web Labwork\Lab09RazorJavaScript\Lab09RazorJavaScript\obj\Debug\netcoreapp1.1\Lab09RazorJavaScript.pdb

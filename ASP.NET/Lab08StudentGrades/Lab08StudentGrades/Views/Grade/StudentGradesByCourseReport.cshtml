@@ -1,0 +1,46 @@
+@model IEnumerable<Lab08StudentGrades.Models.ViewModels.CourseGroupVM>
+
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table">
+
+@foreach (var item in Model) {
+        <thead>
+            <tr>
+                <th>
+                    <h2>
+                        @Html.DisplayFor(modelItem => item.CourseCodeNumber)
+                    </h2>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>
+                    First Name
+                </th>
+                <th>
+                    Last Name
+                </th>
+                <th>
+                    Letter Grade
+                </th>
+            </tr>
+            @foreach(var item2 in item.StudentGrades)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item2.Student.FirstName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item2.Student.LastName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item2.LetterGrade)
+                    </td>
+                </tr>
+            }   
+    </tbody>
+    }
+    </table>

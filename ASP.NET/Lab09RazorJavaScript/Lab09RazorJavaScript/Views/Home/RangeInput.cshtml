@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Range Input";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div>
+    Select a number:
+    <input type="range" name="number2" id="rangeInput" />
+    <input type="number" id="rangeDisplay" readonly disabled />
+    <input type="number" id="rangeDisplayDoubled" readonly disabled />
+</div>
+
+@section Scripts{
+    <script>
+      var rangeInput = document.getElementById("rangeInput");
+        var rangeDisplay = document.getElementById("rangeDisplay");
+        var rangeDisplayDoubled = document.getElementById("rangeDisplayDoubled");
+        rangeDisplay.value = rangeInput.value;
+        rangeDisplayDoubled.value = rangeInput.value * 2;
+      rangeInput.oninput = function () {
+          rangeDisplay.value = this.value;
+          rangeDisplayDoubled.value = this.value * 2;
+      };
+    </script>
+}

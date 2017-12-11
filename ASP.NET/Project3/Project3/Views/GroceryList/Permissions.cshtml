@@ -1,0 +1,43 @@
+@model Project3.Models.ViewModels.UserListVM
+@using Project3.Models.ViewModels
+
+@{
+    ViewData["Title"] = "Permissions";
+}
+
+<h2>Permissions for @Html.DisplayFor(model => model.ListName)</h2>
+
+@Html.Partial("_grantPermission", Model)
+<form id="revokePermForm" asp-action="RevokePermissions" asp-controller="GroceryList">
+    <input type="hidden" id="listId" value="@Model.ListId" />
+    <table class="table">
+        <tbody>
+            <tr>
+                <td>
+                    <input type="button" id="grantPermission" class="btn btn-default" value="Grant Permission" />
+                </td>
+                <td></td>
+            </tr>
+            @foreach (var user in Model.PriviledgedUsers)
+            {
+                <tr class="personRow">
+                    <td>
+                        <input class="personId" type="hidden" value="@user.Id" />
+                        <input class="revokePerm btn btn-default" type="button" value="Revoke" />
+                        @user.FirstName @user.LastName
+                    </td>
+                </tr>
+
+            }
+
+        </tbody>
+    </table>
+</form>
+<div>
+    <input type="submit" id="updateBtn" value="Refresh" class="btn btn-default" />
+    <a class="btn btn-default" asp-action="Index" asp-controller="Home">Back to Home</a>
+</div>
+
+@section Scripts{
+    <script src="~/js/privUser.js"></script>
+}

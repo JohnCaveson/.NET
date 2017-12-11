@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Miles Per Gallon";
+}
+
+<h2>@ViewBag.Title</h2>
+<div>
+    Enter the number of liters of gas consumed by the car:
+    <input type="number" id="litersUsed" />
+</div>
+<div>
+    Enter the miles traveled by the car:
+    <input type="number" id="milesTraveled" />
+</div>
+<div>
+    Number of miles per gallon:
+    <input type="number" id="milesPerGallon" readonly disabled />
+</div>
+<div>
+    <button id="calculate">Calculate</button>
+</div>
+
+@section Scripts{
+    <script src="~/js/milespergallon.js"></script>
+}

@@ -1,0 +1,11 @@
+C:\Users\gigta\Documents\Project3\Project3\bin\Debug\netcoreapp1.1\Project3.deps.json
+C:\Users\gigta\Documents\Project3\Project3\bin\Debug\netcoreapp1.1\Project3.runtimeconfig.json
+C:\Users\gigta\Documents\Project3\Project3\bin\Debug\netcoreapp1.1\Project3.runtimeconfig.dev.json
+C:\Users\gigta\Documents\Project3\Project3\obj\Debug\netcoreapp1.1\Project3.csprojResolveAssemblyReference.cache
+C:\Users\gigta\Documents\Project3\Project3\obj\Debug\netcoreapp1.1\Project3.csproj.CoreCompileInputs.cache
+C:\Users\gigta\Documents\Project3\Project3\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+C:\Users\gigta\Documents\Project3\Project3\obj\Debug\netcoreapp1.1\Project3.AssemblyInfo.cs
+C:\Users\gigta\Documents\Project3\Project3\bin\Debug\netcoreapp1.1\Project3.dll
+C:\Users\gigta\Documents\Project3\Project3\bin\Debug\netcoreapp1.1\Project3.pdb
+C:\Users\gigta\Documents\Project3\Project3\obj\Debug\netcoreapp1.1\Project3.dll
+C:\Users\gigta\Documents\Project3\Project3\obj\Debug\netcoreapp1.1\Project3.pdb

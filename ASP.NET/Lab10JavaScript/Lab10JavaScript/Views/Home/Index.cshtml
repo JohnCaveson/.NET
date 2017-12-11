@@ -1,0 +1,66 @@
+﻿@{
+    ViewData["Title"] = "Clothing Sizes";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+
+<form action="" method="get">
+    <div class="form-horizontal">
+
+        <div class="form-group">
+            <label for="height" class="control-label col-md-2">Height (inches):</label>
+            <div class="col-md-10">
+                <input type="number" id="height" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="weight" class="control-label col-md-2">Weight (pounds):</label>
+            <div class="col-md-10">
+                <input type="number" id="weight" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="age" class="control-label col-md-2">Age (years):</label>
+            <div class="col-md-10">
+                <input type="range" id="age" class="form-control" />
+                <span id="ageDisplay"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="hatSize" class="control-label col-md-2">Hat Size :</label>
+            <div class="col-md-3">
+                <input type="number" id="hatSize" class="form-control" readonly disabled />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="jacketSize" class="control-label col-md-2">Jacket Size :</label>
+            <div class="col-md-3">
+                <input type="number" id="jacketSize" class="form-control" readonly disabled />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="waistInInches" class="control-label col-md-2">Waist In Inches :</label>
+            <div class="col-md-3">
+                <input type="number" id="waistInInches" class="form-control" readonly disabled />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <button id="calculate" class="btn btn-default">Calculate</button>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+@section Scripts{
+<script src="~/js/person.js"></script>
+<script src="~/js/homeIndex.js"></script>
+}

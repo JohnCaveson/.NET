@@ -1,0 +1,42 @@
+@model IEnumerable<Project3.Models.Entities.GroceryList>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Grocery Listception</h2>
+
+<p>
+    <a asp-action="Create" asp-controller="GroceryList">Create New List</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Grocery List Name
+            </th>
+            <th>
+                No. of items on list
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.GroceryListName)
+                </td>
+                <td>
+                    @item.GroceryItems.Count()
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", "GroceryList", new { id = item.Id }, null) |
+                    @Html.ActionLink("Details", "Details", "GroceryList", new { id = item.Id }) |
+                    @Html.ActionLink("Permissions", "Permissions", "GroceryList", new { listId = item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

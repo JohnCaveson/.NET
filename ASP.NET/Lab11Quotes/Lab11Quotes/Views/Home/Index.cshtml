@@ -1,0 +1,14 @@
+@{
+    ViewData["Title"] = "Quotes";
+}
+
+<h2>@ViewData["Title"]</h2>
+<button id="createQuoteBtn" class="btn btn-primary btn-sm">Create New Quote</button><div id="createArea">
+    @Html.Partial("_createQuote", new Quote())
+</div>
+<h2 id="theQuote"></h2>
+<h3 id="whoSaidIt"></h3>
+
+@section scripts{
+    <script src="~/js/homeIndex.js"></script>
+}

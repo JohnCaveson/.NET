@@ -1,0 +1,11 @@
+E:\Adv Web Labwork\Lab12Authentication\Lab12Authentication\bin\Debug\netcoreapp1.1\Lab12Authentication.deps.json
+E:\Adv Web Labwork\Lab12Authentication\Lab12Authentication\bin\Debug\netcoreapp1.1\Lab12Authentication.runtimeconfig.json
+E:\Adv Web Labwork\Lab12Authentication\Lab12Authentication\bin\Debug\netcoreapp1.1\Lab12Authentication.runtimeconfig.dev.json
+E:\Adv Web Labwork\Lab12Authentication\Lab12Authentication\bin\Debug\netcoreapp1.1\Lab12Authentication.dll
+E:\Adv Web Labwork\Lab12Authentication\Lab12Authentication\bin\Debug\netcoreapp1.1\Lab12Authentication.pdb
+E:\Adv Web Labwork\Lab12Authentication\Lab12Authentication\obj\Debug\netcoreapp1.1\Lab12Authentication.csprojResolveAssemblyReference.cache
+E:\Adv Web Labwork\Lab12Authentication\Lab12Authentication\obj\Debug\netcoreapp1.1\Lab12Authentication.csproj.CoreCompileInputs.cache
+E:\Adv Web Labwork\Lab12Authentication\Lab12Authentication\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+E:\Adv Web Labwork\Lab12Authentication\Lab12Authentication\obj\Debug\netcoreapp1.1\Lab12Authentication.AssemblyInfo.cs
+E:\Adv Web Labwork\Lab12Authentication\Lab12Authentication\obj\Debug\netcoreapp1.1\Lab12Authentication.dll
+E:\Adv Web Labwork\Lab12Authentication\Lab12Authentication\obj\Debug\netcoreapp1.1\Lab12Authentication.pdb

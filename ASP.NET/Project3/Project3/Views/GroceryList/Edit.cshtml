@@ -1,0 +1,62 @@
+@model Project3.Models.Entities.GroceryList
+@using Project3.Models.ViewModels
+
+@{
+    ViewData["Title"] = "Editing Grocery List";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+
+<div class="form-horizontal">
+    <hr />
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group">
+        <label class="col-md-2 control-label">Grocery List Name</label>
+        <div class="col-md-10">
+            <input placeholder="@Model.GroceryListName" class="form-control" />
+            <span asp-validation-for="GroceryListName" class="text-danger"></span>
+            <hr />
+            @Html.Partial("../GroceryItem/_createGroceryItem", new CreateGroceryVM(Model.Id))
+        </div>
+    </div>
+    <form id="removeGroceryItem" asp-action="RemoveGroceryItem" asp-controller="GroceryItem">
+        <input type="hidden" id="groceryListId" value="@Model.Id" />
+        <table class="table" id="groceryTable">
+            <thead>
+                <tr>
+                    <th>
+                        Grocery Name
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.GroceryItems)
+                {
+                    <tr class="groceryRow">
+                        <td>
+                            <input type="hidden" class="groceryId" value="@item.Id" />
+                            <input class="btn-clicky btn btn-default" id="delRow" type="submit" value="Remove" />
+                            @Html.DisplayFor(modelItem => item.ItemName)
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </form>
+    <div class="form-group">
+        <div class="col-md-offset-5 col-md-10">
+            <input type="submit" id="updateBtn" value="Update" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+
+
+<div>
+    <a class="btn btn-default" asp-action="Index" asp-controller="Home">Back to Home</a>
+</div>
+
+@section Scripts{
+    <script src="~/js/groceryItemCreate.js"></script>
+}
+
